@@ -12,7 +12,7 @@ export const Main = (props:any) => {
 
 
 
-    let pusher = new Pusher('4f49109f3026b201754a', {
+    let pusher = new Pusher('PUSHER_APP_KEY', {
         cluster: 'us2'
     });
 
